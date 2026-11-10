@@ -1,0 +1,15 @@
+# ビルド
+build/
+dist/
+*.exe
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Excel の一時ファイル・実データ（知人管理表は GitHub に入れない）
+~$*
+*.xlsx
+*.xlsm
+*.xlsb
